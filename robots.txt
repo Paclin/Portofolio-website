@@ -1,0 +1,7 @@
+
+User-agent: *
+Disallow: /images/
+Disallow: /styles/
+Disallow: /backup/
+
+Sitemap: http://www.plinkersportofolio.nl/sitemap.xml

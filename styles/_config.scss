@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$font: 'Open Sans', sans-serif;
+$light-color: #f4f4f4;
+$primary-textcolor: #000;     
+$secondary-textcolor: #0059ff;
+$primary-color: #E2E2E2;
+$secondary-color: #5E6668;
+$hover-color: #ff2e00;
+
+//Set text color afhankelijk van achtergrond kleur
+@function set-text-color($color) {
+    @if (lightness($color) > 70) {
+        @return #333;
+    } @else {
+        @return #fff
+    }
+} 
+
